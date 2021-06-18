@@ -1,0 +1,19 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 213vh;
+    height: 100vh;
+}
+.login >img{
+    object-fit: contain;
+    width: 100%;
+    height: 200px;
+
+}
+.login > button{
+    width: 250px;
+    font-weight: 300px;
+}

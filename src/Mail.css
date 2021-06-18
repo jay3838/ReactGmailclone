@@ -1,0 +1,42 @@
+.mail{
+    flex: 0.8;
+    background-color: whitesmoke;
+}
+.mail__header{
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+}
+.mail__body{
+    background-color: white;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+    box-shadow: 0px, 5px 7px 0px rgba(0, 0, 0, 0.24);
+}
+.mail__bodyheader{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.mail__label.MuiSvgIcon-root{
+    color: yellow;
+    margin-left: 10px;
+}
+.mail__bodyheader > p{
+    margin-left: 10px;
+    flex: 1;
+    
+}
+.time{
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
+}
+.mail__message{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+

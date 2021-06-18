@@ -1,0 +1,40 @@
+.sendmail{
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    background-color: #404040;
+    width: 50%;
+    height: 60%;
+    max-width: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 5px 7px 6px rgba(0,0,0,0.24);
+}
+
+.sendmail__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+.sendmail>input{
+    width: 96%;
+    height: 25px;
+    /* border-radius: 10px; */
+    font-size: medium;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin: 1px;
+}
+.sendmail__option > button.MuiButton-root{
+    background-color: blue;
+    color: whitesmoke;
+} 
+.jp{
+    flex: 1;
+}  

@@ -1,0 +1,19 @@
+.home{
+    flex: 0.8;
+    height: 100vh;
+    overflow: scroll;
+}
+.home::-webkit-scrollbar {
+    overflow: hidden;
+    
+}
+.home__list{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: whitesmoke;
+}
+.home__header{
+    display: flex;
+    
+}

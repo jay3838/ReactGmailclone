@@ -1,0 +1,29 @@
+.section{
+    display: flex;
+    align-items: center;
+    flex:1;
+    cursor: pointer;
+    border-width: 0 !important;
+
+    
+}
+.ic.MuiSvgIcon-root{
+    margin-left: 30px;
+}
+.section >h4{
+    margin-left: 10px;
+}
+.section__std{
+    background-color: whitesmoke;
+    border-width: 3px  !important ;
+}
+
+.section__std:hover{
+    background-color: whitesmoke;
+    border-width: 3px  !important ;
+}
+.section:hover{
+    background-color: whitesmoke;
+    border-width: 3px  !important ;
+
+}
